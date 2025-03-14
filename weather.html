@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+
+    <div class="main mt-5">
+        <div class="head mt-3">
+          
+            <h2>Current Weather</h2>
+            <div class="line mt-1 mb-2"></div>
+
+           
+        </div>
+      
+        <div class="input">
+            <form class="weather-form">
+                <input type="text" name="place" class="location" placeholder="Enter city name" required>
+                <button type="submit">Check</button>
+            </form>
+        </div>
+        <div class="weatherinfo mt-3">
+            <h2 class="placecon"></h2>
+            <p id="temperature"></p>
+            <img src="" alt="" class="conditionimg">
+            <p class="condition"></p>
+            <div class="location-info">
+                <span id="country"></span>
+                <span id="time"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
